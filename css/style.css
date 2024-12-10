@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Centrar el div .interfas */
+.interfas {
+    width: 80%;  /* Ajusta el ancho del contenedor */
+    max-width: 1000px; /* Máximo ancho para que no se expanda demasiado */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Estilo para el div .botonInicio */
+.botonInicio {
+    position: fixed;  /* Fijado en la pantalla */
+    bottom: 20px;  /* A 20px del fondo */
+    right: 20px;   /* A 20px de la derecha */
+}
+
+/* Estilo para los botones dentro de .botonInicio */
+.botonInicio button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.botonInicio button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de los botones dentro de .boton */
+.boton button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.boton button:hover {
+    background-color: #218838;
+}

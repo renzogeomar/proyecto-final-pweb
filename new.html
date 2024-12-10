@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Nueva Página</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #contenido {
+            width: 25%; 
+            height: 250px; 
+        }
+        .boton {
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="interfas">
+        <h1>Crear Nueva Página</h1>
+        <form action="cgi-bin/new.pl" method="post">
+            <label for="titulo">Título de la Página:</label><br>
+            <input type="text" id="titulo" name="titulo" required><br>
+            
+            <label for="contenido">Contenido en Markdown:</label><br>
+            <textarea id="contenido" name="contenido" required></textarea><br>
+            
+            <div class="boton">
+                <button type="submit">Guardar Página</button>
+            </div>
+        </form>
+    </div>
+    <div class="botonInicio">
+        <br><br>
+        <a href="/index.html">
+            <button>Inicio</button>
+        </a>
+    </div>
+</body>
+</html>
